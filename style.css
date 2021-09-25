@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: calc(1vh + 1vw);
+    
+}
+
+:root{
+    --blue: #264653;
+    --cream: #e9c46a;
+    --darkcream: #f4a261;
+    --orange: #e76f51
+}
+
+body{
+    background-color: white;
+}
+
+.font-formatted-1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.divider {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  width: 20%px;
+  border-top: 2px solid var(--cream);
+  padding-bottom: 1rem;
+}
+
+.top{
+    height: 80vh;
+    position: relative;
+}
+
+.skewed{
+    background-color: var(--blue);
+    transform: skewY(6deg);
+    transform-origin: top right;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    transform: skewY(-6deg);
+    color: var(--cream);
+}
+
+.title > h1{
+    font-size: 3rem;
+    letter-spacing: 8px;
+}
+
+.form-section{
+    margin: 2rem;
+}
+
+input{
+    background-color: rgb(224, 224, 224);
+    margin: .3rem;
+    width: 120%;
+    border-radius: 5px;
+}
+
+.submit-button{
+    background-color: var(--blue);
+    width: 10rem;
+    height: 3rem;
+    color:rgb(224, 224, 224);
+    border-radius: 10px;
+    box-shadow: black 2px 2px 5px;
+}
+
+.submit-button:hover{
+    background-color: var(--cream);
+    width: 10rem;
+    height: 3rem;
+    color: var(--blue);
+    border-radius: 10px;
+    box-shadow: black 0px 0px 5px;
+}
+
+.footer{
+    background-color: var(--blue);
+    height: 20vh;
+    position: relative;
+}
+
+.footer > p{
+    color: var(--cream);
+}
+
+.output{
+    height: 60vh;
+}
