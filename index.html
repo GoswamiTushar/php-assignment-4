@@ -23,19 +23,52 @@
 
     <section class="flex-container form-section">
         <form name="assignment" action="./script.php" method="post">
-            <input type="text" name="md5" placeholder="Converts to MD5 encoding"><br>
-            <input type="text" name="number-format" placeholder="Formats the number"><br>
-            <input type="text" name="ord" placeholder="ord()"><br>
-            <input type="text" name="rtrim" placeholder="Trims to string from right"><br>
-            <input type="text" name="strreplace" placeholder="Replaces the string"><br>
-            <input type="text" name="strlen" placeholder="Tells the length of the string"><br>
-            <input type="text" name="strcasecmp" placeholder="strcasecmp()"><br>
-            <input type="text" name="strrpos" placeholder="strrpos()"><br>
-            <input type="text" name="substr" placeholder="Substring"><br>
-            <input type="text" name="strtolower" placeholder="Converts String to lowercase"><br>
-            <input type="text" name="bintohex" placeholder="Converts binary to hex"><br>
-            <input type="text" name="chop" placeholder="Chops the string"><br>
-            <input type="submit" name="submit" placeholder="See Values" class="submit-button" />
+            <div class="heading">
+                <h1>CONVERTS TO MD5 ENCODING</h1>
+            </div><input type="text" name="md5" placeholder="Converts to MD5 encoding"><br>
+            <div class="heading">
+                <h1>FORMATS THE NUMBER TO A CERTAIN PLACE</h1>
+            </div><input type="text" name="number-format-1" placeholder="Enter the number"><input type="text"
+                name="number-format-2" placeholder="Upto which decimal place"><br>
+            <div class="heading">
+                <h1>GIVES THE ASCII CODE OF THE FIRST CHARACTER OF THE STRING</h1>
+            </div><input type="text" name="ord" placeholder="Order"><br>
+            <div class="heading">
+                <h1>TRIMS THE STRING TO RIGHT</h1>
+            </div><input type="text" name="rtrim-1" placeholder="Enter the string"><input type="text" name="rtrim-2"
+                placeholder="Enter Charlist (optional)"><br>
+            <div class="heading">
+                <h1>REPLACES THE WORD IN STRING</h1>
+            </div><input type="text" name="strreplace-1" placeholder="Enter the String"><input type="text"
+                name="strreplace-2" placeholder="Enter Sub-string"><br>
+            <div class="heading">
+                <h1>TELLS THE LENGTH OF THE STRING</h1>
+            </div><input type="text" name="strlen" placeholder="Enter the string for length"><br>
+            <div class="heading">
+                <h1>ENTER STRINGS FOR COMPARISON</h1>
+            </div><input type="text" name="strcasecmp-1" placeholder="Enter string 1"><input type="text"
+                name="strcasecmp-2" placeholder="Enter string 2"><br>
+            <div class="heading">
+                <h1>ENTER THE STRING AND SUBSTRING FOR GETTING POSITION OF FIRST OCCURANCE</h1>
+            </div><input type="text" name="strrpos-1" placeholder="Enter the string">
+            <input type="text" name="strrpos-1" placeholder="Enter the sub-string">
+            <br>
+            <div class="heading">
+                <h1>ENTER THE STRING, START AND LENGTH TO GET SUBSTRING</h1>
+            </div><input type="text" name="substr-1" placeholder="String"><input type="text" name="substr-2"
+                placeholder="Start">
+            <input type="text" name="substr-3" placeholder="Length"><br>
+            <div class="heading">
+                <h1>ENTER THE STRING TO CONVERT TO LOWERCASE</h1>
+            </div><input type="text" name="strtolower" placeholder="Converts String to lowercase"><br>
+            <div class="heading">
+                <h1>ENTER THE STRING TO CONVERT INTO HEXADECIMAL</h1>
+            </div><input type="text" name="bintohex" placeholder="Converts binary to hex"><br>
+            <div class="heading">
+                <h1>ENTER STRING AND CHARACTER FOR CHOPPING STRING</h1>
+            </div><input type="text" name="chop-1" placeholder="Enter String"><input type="text" name="chop-2"
+                placeholder="Enter character"><br>
+            </div><input type="submit" name="submit" placeholder="See Values" class="submit-button" />
         </form>
     </section>
 

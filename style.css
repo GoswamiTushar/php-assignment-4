@@ -65,7 +65,7 @@ body{
 input{
     background-color: rgb(224, 224, 224);
     margin: .3rem;
-    width: 120%;
+    /* min-width: 50%; */
     border-radius: 5px;
 }
 
@@ -99,4 +99,9 @@ input{
 
 .output{
     height: 60vh;
+}
+
+.heading{
+
+    font-family: 'Oswald', sans-serif;
 }
